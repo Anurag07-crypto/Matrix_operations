@@ -18,9 +18,9 @@ if m==3:
     row_2_2=list(map(float,input("Enter row 2 elements for matrix 2 by giving space: ").split()))
     row_3_3=list(map(float,input("Enter row 3 elements for matrix 2 by giving space: ").split()))
 
-    matrix_1=np.array(row_1,
+    matrix_1=np.array([row_1,
                       row_2,
-                      row_3)
+                      row_3])
     matrix_2=np.array(row_1_1,
                       row_2_2,
                       row_3_3)
